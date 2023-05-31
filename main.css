@@ -1,8 +1,30 @@
 body{font-family: 'Ubuntu', sans-serif;}
 
-.nav-color{
-    background: rgb(152, 7, 7);
+:root{
+    --primaryColor: #bb0a21;
+    --badges: rgb(136, 27, 27);
+    --textBg: white;
+    --button: #f81515;
 }
-.nav-mix{
-    color: white;
+
+.nav-color{
+    background: var(--primaryColor);
+}
+.badge-cate{
+    background: var(--primaryColor);
+
+}
+.main-title{
+    color: var(--primaryColor);
+}
+.main-title a{
+    color: var(--primaryColor);   
+}
+.pic-fluid{
+    width: 650px;
+    height: 550px;
+
+}
+.chef-uten{
+    color: var(--button);
 }
