@@ -46,3 +46,9 @@ p{
 .kit{
     color: var(--textBg);
 }
+.copy{
+    color: var(--textBg);
+}
+.cate{
+    color: var(--primaryColor);
+}
